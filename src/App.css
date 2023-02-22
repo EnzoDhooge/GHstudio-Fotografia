@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+  
+  body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    position: relative;
+    padding-bottom: 40px;
+    min-height: 100vh;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }

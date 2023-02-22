@@ -1,0 +1,41 @@
+.background-excelencia {
+    background-image: url('../../../media/excelencia.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+
+
+    .contenedor-principal{
+        color: #fff;
+        width: 60%;
+        margin: 0px auto;
+        padding: 120px 0;
+        text-align: center;
+
+        h2{
+            font-size: 2.3rem;
+            font-weight: bold;
+        }
+        p{ font-size: 1.3rem; }
+
+        @media(max-width: 1500px) { width: 70%; }
+
+        @media(max-width: 1100px) { width: 80%; }
+
+        @media(max-width: 900px) {
+            padding: 90px 0;
+            h2{ font-size: 2rem; }
+            p{ font-size: 1.1rem; }
+        }
+
+        @media(max-width: 600px) { h2{ font-size: 1.8rem; } }
+
+        @media(max-width: 450px) {
+            width: 90%;
+            h2{ font-size: 1.5rem; }
+            p{ font-size: 1rem; }
+        }
+    }
+}

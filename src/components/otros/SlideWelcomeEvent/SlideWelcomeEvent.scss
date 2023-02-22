@@ -1,0 +1,53 @@
+.contenedor-principal-WelEvent {
+    background-image: url("../../../media/WelcomeEvent.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 55vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+        
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.63);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    div {
+        color: rgb(255, 255, 255);
+        position: relative;
+        width: 90%;
+        margin: auto;
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
+    @media(max-width: 1400px) {
+        div {
+            h2 {font-size: 2.3rem;}
+        }
+    }
+
+    @media(max-width: 1000px) {
+        div {
+            h2 {font-size: 2rem;}
+        }
+    }
+
+    @media(max-width: 768px) {
+        height: 60vh;
+        div {
+            h2 {font-size: 1.8rem;}
+        }
+    }
+}
