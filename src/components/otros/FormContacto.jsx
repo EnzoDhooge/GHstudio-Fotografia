@@ -72,7 +72,8 @@ function FormContacto() {
                             }}
 
                             onSubmit={ async(valores, {resetForm}) => {
-                                const url = 'https://fotografia.ga/mail';
+                                // const url = 'http://localhost:3037/mail';
+                                const url = 'https://ghfotografia.website/mail';
                                 const data = {
                                     nombre: valores.nombre,
                                     correo: valores.correo,
